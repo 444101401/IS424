@@ -1,0 +1,28 @@
+C:\Users\zezo>git --version
+git version 2.51.0.windows.2
+
+C:\Users\zezo>git config --global user.name "444101401"
+
+C:\Users\zezo>git config --global user.email 444101401@student.ksu.edu.sa
+
+C:\Users\zezo>git clone https://github.com/444101401/IS424.git
+Cloning into 'IS424'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 9 (delta 2), reused 7 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (9/9), done.
+Resolving deltas: 100% (2/2), done.
+
+C:\Users\zezo>cd IS424
+
+C:\Users\zezo\IS424>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\zezo\IS424>git add labAss#2Sample.HTML
+fatal: pathspec 'labAss#2Sample.HTML' did not match any files
+
+C:\Users\zezo\IS424>
